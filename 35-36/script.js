@@ -18,3 +18,21 @@ if (isEqual(myInput1, myInput2)) {
 } else {
     alert('Числа не равны');
 }
+
+/**36. Заполните массив следующим образом: в первый элемент запишите 'x', во второй 'xx', в третий 'xxx'
+и так далее.**/
+
+// let arr = [];
+// let input = prompt(`Сколько раз Вы хотите повторить число x?`);
+
+// function fillArr(count) {
+//     let x = 'x';
+//     for (let i = 0; i < count; i++) {
+//         arr.push(x);
+//         x += 'x';
+//     }
+// }
+
+// fillArr(input);
+
+// alert(arr.join("\n"));
